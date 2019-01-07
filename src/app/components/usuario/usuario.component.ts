@@ -11,8 +11,8 @@ export class UsuarioComponent implements OnInit {
     private route: ActivatedRoute
   ) {
     this.route.params.subscribe( paramatros => {
-      console.log('Ruta padre: ');
-      console.log(paramatros);
+      // console.log('Ruta padre: ');
+      // console.log(paramatros);
 
 
     });
